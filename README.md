@@ -27,10 +27,10 @@ Anchors have special meaning in regex. They do not match any character. Instead 
  $ – The dollar anchor matches the end of the text.
 
 ### Quantifiers
-There are two quantifiers used in this regex. The first + which is identified as a greedy quantifier. This quantifier will allow connectionfor te users email+ email service + .com. The other quantifier is the {2,6}, this will match everything after the . 2-6 times to ensure it has a minimum of 2 characters and a maximum of 6. 
+There are two quantifiers used in this regex. The first + which is identified as a greedy quantifier. This quantifier will allow connection for te users email+ email service + .com. The other quantifier is the {2,6}, this will match everything after the . 2-6 times to ensure it has a minimum of 2 characters and a maximum of 6. 
 
 ### Grouping Constructs
-The first group ([a-z0-9_\.-])+ will capture the email name, the second group ([\da-z\.-]+) will capture the users email provider and the third group ([a-z\.]{2,6}) will capture the top level domain imput from the user. 
+The first group ([a-z0-9_\.-])+ will capture the email name, the second group ([\da-z\.-]+) will capture the users email provider and the third group ([a-z\.]{2,6}) will capture the top level domain input from the user. 
 
 ### Bracket Expressions
 A bracket expression is a list of characters enclosed by ‘[’ and ‘]’. It matches any single character in that list. If the first character of the list is the caret ‘^’, then it matches any character not in the list, and it is unspecified whether it matches an encoding error. For example, the regular expression ‘[0123456789]’ matches any single digit, whereas ‘[^()]’ matches any single character that is not an opening or closing parenthesis, and might or might not match an encoding error.
@@ -47,14 +47,14 @@ OR operator is to match the characters on the left or the right of the operator,
 Using the | as in m|M would match either m or an M from the string. For example if you use https?:\/\/(www\.)?[\d-a|A it would search or a OR A. 
 
 ### Flags
-A flag is an optional parameter to a regex that modifies its behavior of searching. A flag changes the default searching behaviour of a regular expression. It makes a regex search in a different way. A flag is denoted using a single lowercase alphabetic character.
+A flag is an optional parameter to a regex that modifies its behavior of searching. A flag changes the default searching behavior of a regular expression. It makes a regex search in a different way. A flag is denoted using a single lowercase alphabetic character.
 
 Flag Expressions:
 
 i: Ignores casing. Makes expression case-sensitive
-g: Global. Makes expression search for all occurences
+g: Global. Makes expression search for all occurrences
 s: Dot All. Makes the wild characters . match newlines as well
-m: Multiline. Makes boudnary characters ^ and $ match beginning and end of every line.
+m: Multiline. Makes boundary characters ^ and $ match beginning and end of every line.
 y: Sticky. Indicates that it matches only from the index indicated by the lastIndex property of this regular expression in the target string (and does not attempt to match from any later indexes)
 u: Unicode. Expression assumes individual characters are code points, not code units and will then match 32 bit characters.
 
@@ -107,5 +107,7 @@ Escaped Characters
 \Z    end of a string before the line break
 
 ## Author
+AKeia M.
 
-A short section about the author with a link to the author's GitHub profile ()
+Junior Software Engineer completing requirements for Bootcamp.
+ GitHub profile (https://github.com/DrMcCollum5)
